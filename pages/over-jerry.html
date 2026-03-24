@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+    <title>Over Jerry | Food and Joy</title>
+</head>
+<body>
+<main>
+    <!-- Hero Section -->
+    <section class="relative h-[500px] bg-cover bg-center bg-no-repeat rounded-b-[80px]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/background.jpg');">
+        <header id="header" class="absolute top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+            <nav class="navbar flex items-center justify-between p-6 text-white">
+                <div class="flex justify-between items-center w-full">
+                    <a href="index.html" class="logo text-4xl font-[Bree_Serif] font-semibold">FOOD AND JOY</a>
+                    <button id="hamburger-menu" class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul id="nav-menu" class="nav-links flex space-x-8">
+                        <li class="mobile-home-link"><a href="index.html">FOOD AND JOY</a></li>
+                        <li><a href="catering.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Catering</a></li>
+                        <li><a href="freelance.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Freelance</a></li>
+                        <li><a href="homecooking.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Over Jerry</a></li>
+                        <li><a href="contact.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 font-[Bree_Serif]">Over Jerry van der Graaf</h1>
+            <p class="text-lg md:text-xl text-gray-100 max-w-2xl">De creatieve chef achter Food and Joy</p>
+        </div>
+    </section>
+
+    <!-- Jerry Profile Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 md:px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center animate-pop-in">
+                
+                <!-- Text -->
+                <div>
+                    <h2 class="text-4xl font-bold mb-6 font-[Bree_Serif]">Jerry van der Graaf</h2>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                        Jerry van der Graaf is de creatieve kracht achter Food and Joy. Met een diepe passie voor gastronomie en jarenlange ervaring in de culinaire wereld, heeft Jerry zich gespecialiseerd in het creëren van unieke, smaakvolle ervaringen. Zijn liefde voor koken begon op jonge leeftijd in de keuken van zijn ouders en is sindsdien uitgegroeid tot een ware kunstvorm.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        Na zijn opleiding aan de koksopleiding heeft Jerry zijn vaardigheden verder ontwikkeld in diverse restaurants, van gezellige brasserieën tot chique eetgelegenheden. Deze ervaring heeft hem niet alleen de nodige technieken bijgebracht, maar ook het belang van presentatie en teamwork in de horeca.
+                    </p>
+                </div>
+                
+                <!-- Photo -->
+                <div class="flex justify-center">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl w-full max-w-md bg-gradient-to-br from-amber-100 to-amber-200 h-120 flex items-center justify-center">
+                        <img src="../assets/images/jerry.jpg" alt="Jerry van der Graaf" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creativity Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 md:px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 font-[Bree_Serif]">Creativiteit & Vakmanschap</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Creativity -->
+                <div class="animate-pop-in">
+                    <div class="bg-white rounded-3xl shadow-lg p-8 md:p-10">
+                        <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                            <span class="text-2xl">✨</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 font-[Bree_Serif]">Culinaire Creativiteit</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Jerry's creativiteit komt tot uiting in elk gerecht dat hij bereidt. Hij laat zich inspireren door seizoensgebonden ingrediënten, reizen en verschillende culinaire tradities. Elk menu wordt op maat gemaakt, waarbij hij rekening houdt met de voorkeuren en wensen van zijn klanten. Deze persoonlijke benadering zorgt ervoor dat elke gelegenheid uniek en memorabel is.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Quality & Sustainability -->
+                <div class="animate-pop-in">
+                    <div class="bg-white rounded-3xl shadow-lg p-8 md:p-10">
+                        <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                            <span class="text-2xl">🌱</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 font-[Bree_Serif]">Kwaliteit & Duurzaamheid</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Kwaliteit en duurzaamheid zijn essentieel voor Jerry. Hij werkt bij voorkeur met lokale, seizoensgebonden producten om de versheid en smaak van zijn gerechten te waarborgen. Door samen te werken met lokale leveranciers ondersteunt hij de gemeenschap en minimaliseert hij zijn ecologische voetafdruk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 md:px-6 animate-pop-in">
+            <div class="bg-gradient-to-r from-amber-500 to-amber-600 rounded-3xl shadow-2xl p-12 text-white">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center font-[Bree_Serif]">Meer Dan Alleen Een Chef</h2>
+                <p class="text-lg md:text-xl leading-relaxed text-center">
+                    Jerry van der Graaf is niet alleen een chef-kok, maar ook een culinaire verhalenverteller die de schoonheid van voedsel tot leven brengt. Met Food and Joy blijft hij zijn passie voor koken delen en zorgt hij ervoor dat elke gelegenheid een onvergetelijke ervaring wordt vol smaak en verbinding.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 md:px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 font-[Bree_Serif]">Waardes van Jerry</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition animate-pop-in">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-3xl">🎨</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Creativiteit</h3>
+                    <p class="text-gray-700">Elk gerecht is een kunstwerk vol passie en originaliteit.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition animate-pop-in">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-3xl">⭐</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Kwaliteit</h3>
+                    <p class="text-gray-700">Alleen de beste ingrediënten en technieken zijn goed genoeg.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition animate-pop-in">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-3xl">🌍</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Duurzaamheid</h3>
+                    <p class="text-gray-700">Lokale, seizoensgebonden producten voor een betere wereld.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition animate-pop-in">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-3xl">👥</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Verbinding</h3>
+                    <p class="text-gray-700">Voedsel brengt mensen samen op meerdere niveaus.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition animate-pop-in">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-3xl">💡</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Innovatie</h3>
+                    <p class="text-gray-700">Grenzen verleggen en nieuwe smaakervaring creëren.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition animate-pop-in">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-3xl">❤️</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Passie</h3>
+                    <p class="text-gray-700">Alles dat Jerry doet, wordt gedaan met liefde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-amber-50">
+        <div class="max-w-3xl mx-auto px-4 md:px-6 text-center animate-pop-in">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 font-[Bree_Serif] text-gray-900">Klaar Voor Een Culinaire Avond Thuis?</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8">
+                Laat Jerry van der Graaf uw volgende diner tot een onvergetelijk moment maken. Neem vandaag nog contact op voor een persoonlijk gesprek over uw wensen.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="contact.html" class="px-8 py-4 bg-amber-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 text-lg">
+                    Vraag Offerte aan
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<div class="bg-amber-50">
+    <footer class="bg-[#1e3049] text-white pt-12 pb-6 border-t rounded-t-[80px]">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:justify-between gap-10">
+            <div class="mb-8 md:mb-0 flex-1">
+                <a href="index.html" class="text-3xl font-[Bree_Serif] font-bold tracking-wide">FOOD AND JOY</a>
+            </div>
+            <div class="flex flex-col sm:flex-row flex-1 gap-10 justify-end items-start">
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Navigatie</h4>
+                    <ul class="space-y-2">
+                        <li><a href="catering.html" class="hover:text-amber-400 transition">Catering</a></li>
+                        <li><a href="freelance.html" class="hover:text-amber-400 transition">Freelance</a></li>
+                        <li><a href="homecooking.html" class="hover:text-amber-400 transition">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="hover:text-amber-400 transition">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="hover:text-amber-400 transition">Over Jerry</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Contact</h4>
+                    <ul class="space-y-2">
+                        <li><span class="font-semibold">Jerry van der Graaf</span></li>
+                        <li><a href="tel:06 18 93 88 56" class="hover:text-amber-400 transition">06 18 93 88 56</a></li>
+                        <li><a href="mailto:info@foodandjoy.nl" class="hover:text-amber-400 transition">info@foodandjoy.nl</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 pt-6 text-center text-sm opacity-50">
+            &copy; 2026 Food and Joy
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

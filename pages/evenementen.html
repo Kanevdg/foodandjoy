@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+    <title>Evenementen | Food and Joy</title>
+</head>
+<body>
+<main>
+    <!-- Hero Section -->
+    <section class="relative h-[500px] bg-cover bg-center bg-no-repeat rounded-b-[80px]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/evenementen.jpg');">
+        <header id="header" class="absolute top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+            <nav class="navbar flex items-center justify-between p-6 text-white">
+                <div class="flex justify-between items-center w-full">
+                    <a href="index.html" class="logo text-4xl font-[Bree_Serif] font-semibold">FOOD AND JOY</a>
+                    <button id="hamburger-menu" class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul id="nav-menu" class="nav-links flex space-x-8">
+                        <li class="mobile-home-link"><a href="index.html">FOOD AND JOY</a></li>
+                        <li><a href="catering.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Catering</a></li>
+                        <li><a href="freelance.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Freelance</a></li>
+                        <li><a href="homecooking.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Over Jerry</a></li>
+                        <li><a href="contact.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 font-[Bree_Serif]">Culinaire Evenementen</h1>
+            <p class="text-lg md:text-xl text-gray-100 max-w-2xl">Live cooking ervaringen die uw gasten zullen betoveren</p>
+        </div>
+    </section>
+
+    <!-- Culinary Options Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 md:px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 font-[Bree_Serif]">Diverse Culinaire Mogelijkheden</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <!-- Barbecue -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition animate-pop-in">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="text-4xl">🔥</div>
+                        <h3 class="text-2xl font-bold font-[Bree_Serif] pt-1">Barbecue</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Geniet van perfect gegrild vlees en groenten, bereid op een authentieke houtgestookte smoker die de smaken naar een hoger niveau tilt.
+                    </p>
+                </div>
+
+                <!-- Pizzaoven -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition animate-pop-in">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="text-4xl">🍕</div>
+                        <h3 class="text-2xl font-bold font-[Bree_Serif] pt-1">Pizzaoven</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Laat uw gasten hun eigen pizza's samenstellen en kijken terwijl ze in een traditionele oven worden gebakken. Dit creëert niet alleen een heerlijke maaltijd, maar ook een interactieve ervaring.
+                    </p>
+                </div>
+
+                <!-- Poffertjeskraam -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition animate-pop-in">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="text-4xl">🧇</div>
+                        <h3 class="text-2xl font-bold font-[Bree_Serif] pt-1">Poffertjeskraam</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Breng de zoete lekkernijen van de Nederlandse traditie naar uw evenement met een poffertjeskraam die versgebakken poffertjes serveert.
+                    </p>
+                </div>
+
+                <!-- Saladebars -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition animate-pop-in">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="text-4xl">🥗</div>
+                        <h3 class="text-2xl font-bold font-[Bree_Serif] pt-1">Saladebars</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Bied een gezonde en frisse optie met een uitgebreide saladebar waar gasten hun eigen salades kunnen samenstellen met een verscheidenheid aan ingrediënten.
+                    </p>
+                </div>
+
+                <!-- Pastacookers -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition animate-pop-in">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="text-4xl">🍝</div>
+                        <h3 class="text-2xl font-bold font-[Bree_Serif] pt-1">Pastacookers</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Laat onze chef-koks vers bereide pasta's voor uw gasten bereiden, met verschillende sauzen en toppings om uit te kiezen.
+                    </p>
+                </div>
+
+                <!-- Lemonadebar -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition animate-pop-in">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="text-4xl">🍋</div>
+                        <h3 class="text-2xl font-bold font-[Bree_Serif] pt-1">Lemonadebar</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Verfris uw gasten met een zelfgemaakte lemonadebar, waar ze kunnen genieten van verschillende smaken en mixen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 md:px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 font-[Bree_Serif]">Waarom Food and Joy Voor Uw Evenement?</h2>
+            
+            <!-- Feature 1: Onvergetelijke Ervaring -->
+            <div class="mb-16 animate-pop-in">
+                <div class="bg-gradient-to-r from-amber-50 to-amber-100 rounded-3xl shadow-lg p-8 md:p-12 border-l-4 border-amber-600">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-amber-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Een Onvergetelijke Ervaring</h3>
+                            <p class="text-lg leading-relaxed text-gray-800">
+                                Onze culinaire evenementen zijn meer dan alleen eten; ze zijn een complete ervaring. Wij zorgen voor alles, van de voorbereiding tot de presentatie, zodat u zich kunt richten op uw gasten. Onze ervaren chefs brengen niet alleen hun kookkunsten, maar ook hun passie en enthousiasme mee, waardoor de sfeer op uw evenement nog aangenamer wordt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2: Maatwerk -->
+            <div class="mb-16 animate-pop-in">
+                <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-3xl shadow-lg p-8 md:p-12 border-l-4 border-blue-600">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-blue-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 17v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.381z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Maatwerk Voor Elk Evenement</h3>
+                            <p class="text-lg leading-relaxed text-gray-800">
+                                Of het nu gaat om een bruiloft, bedrijfsfeest, verjaardagsfeest of een ander soort evenement, wij denken graag met u mee over een op maat gemaakt concept dat perfect aansluit bij uw wensen en budget. Onze focus ligt op kwaliteit en creativiteit, zodat elk aspect van uw evenement speciaal is.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3: Culinaire Magie -->
+            <div class="animate-pop-in">
+                <div class="bg-gradient-to-r from-purple-50 to-purple-100 rounded-3xl shadow-lg p-8 md:p-12 border-l-4 border-purple-600">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-purple-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Geniet Van De Culinaire Magie</h3>
+                            <p class="text-lg leading-relaxed text-gray-800">
+                                Laat u en uw gasten verwonderen door de culinaire magie van Food and Joy. Met onze live cooking ervaringen zorgen we voor een feest voor de zintuigen, waarbij smaken en presentatie samenkomen in een onvergetelijke beleving. Ervaar de unieke combinatie van eten, gezelligheid en creativiteit, en maak van uw evenement een onvergetelijke gelegenheid.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Types Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 md:px-6 animate-pop-in">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 font-[Bree_Serif]">Perfect Voor Elk Evenement</h2>
+            
+            <div class="space-y-6 text-gray-700 text-lg leading-relaxed">
+                <p>
+                    Of het nu gaat om een bruiloft, bedrijfsfeest, verjaardagsfeest of een ander soort evenement, wij denken graag met u mee over een op maat gemaakt concept dat perfect aansluit bij uw wensen en budget. Onze focus ligt op kwaliteit en creativiteit, zodat elk aspect van uw evenement speciaal is.
+                </p>
+                <p>
+                    Van feestelijke diners tot informele borrels, van familiebijeenkomsten tot grote zakelijke gelegendheden - Food and Joy is altijd bereid om uw evenement naar een hoger niveau te tillen met onze live cooking ervaringen. Laat ons uw ideeën omzetten in een onvergetelijke culinaire beleving.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-amber-50">
+        <div class="max-w-3xl mx-auto px-4 md:px-6 text-center animate-pop-in">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 font-[Bree_Serif] text-gray-900">Klaar Voor Een Culinaire Avond Thuis?</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8">
+                Laat Jerry van der Graaf uw volgende diner tot een onvergetelijk moment maken. Neem vandaag nog contact op voor een persoonlijk gesprek over uw wensen.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="contact.html" class="px-8 py-4 bg-amber-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 text-lg">
+                    Vraag Offerte Aan
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<div class="bg-amber-50">
+    <footer class="bg-[#1e3049] text-white pt-12 pb-6 border-t rounded-t-[80px]">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:justify-between gap-10">
+            <div class="mb-8 md:mb-0 flex-1">
+                <a href="index.html" class="text-3xl font-[Bree_Serif] font-bold tracking-wide">FOOD AND JOY</a>
+            </div>
+            <div class="flex flex-col sm:flex-row flex-1 gap-10 justify-end items-start">
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Navigatie</h4>
+                    <ul class="space-y-2">
+                        <li><a href="catering.html" class="hover:text-amber-400 transition">Catering</a></li>
+                        <li><a href="freelance.html" class="hover:text-amber-400 transition">Freelance</a></li>
+                        <li><a href="homecooking.html" class="hover:text-amber-400 transition">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="hover:text-amber-400 transition">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="hover:text-amber-400 transition">Over Jerry</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Contact</h4>
+                    <ul class="space-y-2">
+                        <li><span class="font-semibold">Jerry van der Graaf</span></li>
+                        <li><a href="tel:06 18 93 88 56" class="hover:text-amber-400 transition">06 18 93 88 56</a></li>
+                        <li><a href="mailto:info@foodandjoy.nl" class="hover:text-amber-400 transition">info@foodandjoy.nl</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 pt-6 text-center text-sm opacity-50">
+            &copy; 2026 Food and Joy
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

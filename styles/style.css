@@ -1,0 +1,185 @@
+/* Image zoom on hover for Over Food and Joy blocks */
+.zoom-on-hover {
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.zoom-on-hover:hover {
+    transform: scale(1.04);
+}
+/* Modern hover and transition effects */
+.modern-btn {
+    @apply transition-transform duration-300 ease-in-out shadow hover:scale-105 hover:shadow-xl hover:bg-amber-700 hover:text-white;
+}
+.modern-card {
+    @apply transition-shadow duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-1;
+}
+.modern-img {
+    @apply transition-transform duration-300 ease-in-out hover:scale-105;
+}
+@keyframes pop-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(60px) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.animate-pop-in {
+    opacity: 0;
+    transform: translateY(60px) scale(0.95);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.animate-pop-in.visible {
+    animation: pop-in-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+body {
+    background-color: #f6f6f6;
+}
+
+.mobile-home-link {
+    display: none;
+}
+
+/* Responsive header + hamburger menu */
+.hamburger-menu {
+    display: none;
+    position: relative;
+    width: 32px;
+    height: 26px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 60;
+}
+.hamburger-menu span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin: 5px 0;
+    background: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.hamburger-menu:hover,
+.hamburger-menu:focus {
+    background: transparent;
+}
+.hamburger-menu:hover span,
+.hamburger-menu:focus span {
+    transform: none;
+    opacity: 1;
+}
+.hamburger-menu.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger-menu.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger-menu.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+#nav-menu {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    .navbar .nav-links {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        margin: 0;
+        list-style: none;
+        background: rgba(30, 48, 73, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.25rem;
+        align-items: center;
+        padding: 1.5rem 2rem 10rem;
+        min-height: 100dvh;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-16px);
+        z-index: 45;
+    }
+
+    .navbar .nav-links > :not([hidden]) ~ :not([hidden]) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .navbar .nav-links li a {
+        position: relative;
+    }
+
+    .navbar .nav-links li a::after {
+        width: 0 !important;
+        height: 0 !important;
+        opacity: 0 !important;
+        transition: none !important;
+    }
+
+    .navbar .nav-links li a:hover::after {
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    .navbar .nav-links li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar .nav-links .mobile-home-link {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .navbar .nav-links li a {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.15rem;
+    }
+
+    .navbar .nav-links .mobile-home-link a {
+        font-family: "Bree Serif", serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+    }
+
+    .navbar .nav-links li a:hover,
+    .navbar .nav-links li a:focus {
+        color: inherit !important;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.open {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar .logo {
+        font-size: 1.35rem;
+    }
+    .navbar .nav-links li a {
+        font-size: 1rem;
+    }
+}
+
+body.no-scroll {
+    overflow: hidden;
+}

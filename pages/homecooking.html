@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+    <title>Homecooking | Food and Joy</title>
+</head>
+<body>
+<main>
+    <!-- Hero Section -->
+    <section class="relative h-[500px] bg-cover bg-center bg-no-repeat rounded-b-[80px]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/homecooking.jpg');">
+        <header id="header" class="absolute top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+            <nav class="navbar flex items-center justify-between p-6 text-white">
+                <div class="flex justify-between items-center w-full">
+                    <a href="index.html" class="logo text-4xl font-[Bree_Serif] font-semibold">FOOD AND JOY</a>
+                    <button id="hamburger-menu" class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul id="nav-menu" class="nav-links flex space-x-8">
+                        <li class="mobile-home-link"><a href="index.html">FOOD AND JOY</a></li>
+                        <li><a href="catering.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Catering</a></li>
+                        <li><a href="freelance.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Freelance</a></li>
+                        <li><a href="homecooking.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Over Jerry</a></li>
+                        <li><a href="contact.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 font-[Bree_Serif]">Thuis Koken Met Stijl</h1>
+            <p class="text-lg md:text-xl text-gray-100 max-w-2xl">Luxe en culinaire ervaring in de comfort van uw eigen huis</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 md:px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 font-[Bree_Serif]">Waarom Homecooking Van Food and Joy?</h2>
+            
+            <!-- Feature 1: Persoonlijke Chef -->
+            <div class="mb-16 animate-pop-in">
+                <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-amber-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M10.5 1.5H9.5A1.5 1.5 0 008 3v2.362a3 3 0 00.305 1.278l1.413 2.83a.5.5 0 00.764 0l1.414-2.83A3 3 0 0012 5.362V3a1.5 1.5 0 00-1.5-1.5z"/>
+                                <path d="M5 8a1 1 0 011 1v8a1 1 0 01-1 1H2a1 1 0 01-1-1V9a1 1 0 011-1h3zm10 0a1 1 0 011 1v8a1 1 0 01-1 1h-3a1 1 0 01-1-1V9a1 1 0 011-1h3zM9 13a1 1 0 11-2 0 1 1 0 012 0zm4 0a1 1 0 11-2 0 1 1 0 012 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Een Persoonlijke Chef Bij U Thuis</h3>
+                            <p class="text-lg leading-relaxed text-gray-700">
+                                Met ons homecooking concept kunt u genieten van de service en kwaliteit van een privéchef in uw eigen keuken. Jerry van der Graaf, de drijvende kracht achter Food and Joy, bereidt met passie een compleet menu op maat, afgestemd op uw smaak en wensen. Alles wordt zorgvuldig voorbereid, gekookt en geserveerd, zodat u alleen maar hoeft te genieten van het gezelschap en de heerlijke gerechten.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2: Menu Options -->
+            <div class="mb-16 animate-pop-in">
+                <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-amber-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a1 1 0 001 1h12a1 1 0 001-1V6a2 2 0 00-2-2H4zm0 6a2 2 0 00-2 2v4a2 2 0 002 2h12a2 2 0 002-2v-4a2 2 0 00-2-2H4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-6 font-[Bree_Serif]">Van Lunch Tot Luxe Diner</h3>
+                            <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                                Of u nu een lichte lunch wilt of een uitgebreid meergangendiner, wij bieden tal van mogelijkheden voor een onvergetelijke culinaire beleving. Denk bijvoorbeeld aan:
+                            </p>
+                            <div class="space-y-4">
+                                <div class="border-l-4 border-amber-600 pl-4">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-1">🥗 Intieme Lunches</h4>
+                                    <p class="text-gray-700">Perfect voor kleine gezelschappen of zakelijke bijeenkomsten in een ontspannen setting.</p>
+                                </div>
+                                <div class="border-l-4 border-amber-600 pl-4">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-1">🍽️ Feestelijke Diners</h4>
+                                    <p class="text-gray-700">Ideaal voor informele settings of netwerkbijeenkomsten, waarbij gasten van verschillende kleine gerechten kunnen genieten terwijl ze zich vrij kunnen bewegen.</p>
+                                </div>
+                                <div class="border-l-4 border-amber-600 pl-4">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-1">✨ Luxe Hapjes</h4>
+                                    <p class="text-gray-700">Voor speciale gelegenheden zoals verjaardagen, jubilea of een bijzondere viering.</p>
+                                </div>
+                                <div class="border-l-4 border-amber-600 pl-4">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-1">🌍 Themadiners</h4>
+                                    <p class="text-gray-700">Laat ons een themadiner creëren, geïnspireerd door uw favoriete keuken of een specifiek thema dat u wilt vieren.</p>
+                                </div>
+                            </div>
+                            <p class="text-base leading-relaxed text-gray-700 mt-6 italic">
+                                Elk menu wordt aangepast aan uw persoonlijke voorkeuren en eventuele dieetwensen, zodat elke gang een feest voor de zintuigen is.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3: Zorgeloze Ervaring -->
+            <div class="mb-16 animate-pop-in">
+                <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-amber-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 3.051v.417c0 .155.015.31.02.466a3.064 3.064 0 01-1.681 2.929 4.949 4.949 0 00-.78.27A4.949 4.949 0 0012 13.5a4.949 4.949 0 00-.772-.27 3.064 3.064 0 01-1.68-2.928v-.417a3.066 3.066 0 012.812-3.051zM9 15a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Een Zorgeloze Ervaring</h3>
+                            <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                                Bij Food and Joy nemen we alle zorgen uit handen. Vanaf het moment dat wij binnenkomen, zorgen wij voor alles: van de inkoop van verse ingrediënten tot de presentatie van de gerechten. Wilt u zelf actief betrokken zijn bij de bereiding van het eten? Geen probleem! U kunt desgewenst meekijken en zelfs meedoen, terwijl Jerry zijn culinaire kennis en technieken met u deelt.
+                            </p>
+                            <div class="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                                <ul class="space-y-2 text-sm md:text-base">
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-amber-600">✓</span>
+                                        <span class="text-gray-700">Volledige voorbereiding en ingrediënten</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-amber-600">✓</span>
+                                        <span class="text-gray-700">Professionele keuken setup</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-amber-600">✓</span>
+                                        <span class="text-gray-700">Service en tafelbediening</span>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-amber-600">✓</span>
+                                        <span class="text-gray-700">Afwas en opruiming</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 4: Koken Op Maat -->
+            <div class="mb-16 animate-pop-in">
+                <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-amber-600 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M5.5 13a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.3A4.5 4.5 0 1113.5 13H11V9.413l1.293 1.293a1 1 0 001.414-1.414l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13H5.5z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Koken Op Maat</h3>
+                            <p class="text-lg leading-relaxed text-gray-700">
+                                Elk huis is anders, en dat geldt ook voor elke keuken. Maar met onze ervaring en flexibiliteit passen wij ons moeiteloos aan aan uw situatie. Of u nu een volledig uitgeruste keuken heeft of enkel de basisbenodigdheden, wij zorgen ervoor dat alles soepel verloopt en dat uw keuken net zo schoon is als toen wij binnenkwamen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 5: Luxe ervaring -->
+            <div class="animate-pop-in">
+                <div class="bg-gradient-to-r from-amber-500 to-amber-600 rounded-3xl shadow-xl p-8 md:p-12 text-white">
+                    <div class="flex items-start gap-6">
+                        <div class="flex-shrink-0 bg-white bg-opacity-20 rounded-full p-3 h-fit">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold mb-4 font-[Bree_Serif]">Ervaar Luxe In Uw Eigen Huis</h3>
+                            <p class="text-lg leading-relaxed font-light">
+                                Thuis koken met stijl betekent dat u kunt genieten van hoogwaardige gerechten en service zonder dat u zelf een vinger hoeft uit te steken. Laat ons uw culinaire wensen werkelijkheid maken, terwijl u zich volledig kunt richten op het genieten van een sfeervolle en smaakvolle avond.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-amber-50">
+        <div class="max-w-3xl mx-auto px-4 md:px-6 text-center animate-pop-in">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 font-[Bree_Serif] text-gray-900">Klaar Voor Een Culinaire Avond Thuis?</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8">
+                Laat Jerry van der Graaf uw volgende diner tot een onvergetelijk moment maken. Neem vandaag nog contact op voor een persoonlijk gesprek over uw wensen.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="contact.html" class="px-8 py-4 bg-amber-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 text-lg">
+                    Vraag Offerte Aan
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<div class="bg-amber-50">
+    <footer class="bg-[#1e3049] text-white pt-12 pb-6 border-t rounded-t-[80px]">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:justify-between gap-10">
+            <div class="mb-8 md:mb-0 flex-1">
+                <a href="index.html" class="text-3xl font-[Bree_Serif] font-bold tracking-wide">FOOD AND JOY</a>
+            </div>
+            <div class="flex flex-col sm:flex-row flex-1 gap-10 justify-end items-start">
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Navigatie</h4>
+                    <ul class="space-y-2">
+                        <li><a href="catering.html" class="hover:text-amber-400 transition">Catering</a></li>
+                        <li><a href="freelance.html" class="hover:text-amber-400 transition">Freelance</a></li>
+                        <li><a href="homecooking.html" class="hover:text-amber-400 transition">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="hover:text-amber-400 transition">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="hover:text-amber-400 transition">Over Jerry</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Contact</h4>
+                    <ul class="space-y-2">
+                        <li><span class="font-semibold">Jerry van der Graaf</span></li>
+                        <li><a href="tel:06 18 93 88 56" class="hover:text-amber-400 transition">06 18 93 88 56</a></li>
+                        <li><a href="mailto:info@foodandjoy.nl" class="hover:text-amber-400 transition">info@foodandjoy.nl</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 pt-6 text-center text-sm opacity-50">
+            &copy; 2026 Food and Joy
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

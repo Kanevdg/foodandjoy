@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+    <title>Contact | Food and Joy</title>
+</head>
+<body>
+<main>
+    <!-- Hero Section -->
+    <section class="relative h-[500px] bg-cover bg-center bg-no-repeat rounded-b-[80px]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/background.jpg');">
+        <header id="header" class="absolute top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+            <nav class="navbar flex items-center justify-between p-6 text-white">
+                <div class="flex justify-between items-center w-full">
+                    <a href="index.html" class="logo text-4xl font-[Bree_Serif] font-semibold">FOOD AND JOY</a>
+                    <button id="hamburger-menu" class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul id="nav-menu" class="nav-links flex space-x-8">
+                        <li class="mobile-home-link"><a href="index.html">FOOD AND JOY</a></li>
+                        <li><a href="catering.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Catering</a></li>
+                        <li><a href="freelance.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Freelance</a></li>
+                        <li><a href="homecooking.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Over Jerry</a></li>
+                        <li><a href="contact.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 font-[Bree_Serif]">Neem Contact Op</h1>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 md:px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <!-- Phone -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 text-center hover:shadow-xl transition animate-pop-in">
+                    <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <span class="text-3xl">📞</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 font-[Bree_Serif]">Bel Jerry</h3>
+                    <p class="text-gray-700 mb-4">Neem direct contact op voor vragen of informatie.</p>
+                    <a href="tel:06 18 93 88 56" class="text-amber-600 font-bold text-lg hover:text-amber-700">
+                        06 18 93 88 56
+                    </a>
+                </div>
+
+                <!-- Email -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 text-center hover:shadow-xl transition animate-pop-in">
+                    <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <span class="text-3xl">✉️</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 font-[Bree_Serif]">Stuur een E-mail</h3>
+                    <p class="text-gray-700 mb-4">Bereik mij via e-mail voor uitgebreide vragen.</p>
+                    <a href="mailto:info@foodandjoy.nl" class="text-amber-600 font-bold text-lg hover:text-amber-700">
+                        info@foodandjoy.nl
+                    </a>
+                </div>
+
+                <!-- Location -->
+                <div class="bg-white rounded-3xl shadow-lg p-8 text-center hover:shadow-xl transition animate-pop-in">
+                    <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <span class="text-3xl">📍</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 font-[Bree_Serif]">Locatie</h3>
+                    <p class="text-gray-700">
+                        <span class="font-semibold">Food and Joy</span><br>
+                        Nederland<br>
+                        Vinkeveen
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 md:px-6 animate-pop-in">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 font-[Bree_Serif]">Stuur Een Bericht</h2>
+            
+            <form id="contact-form" class="bg-white rounded-3xl shadow-lg p-8 md:p-12" action="https://formsubmit.co/info@foodandjoy.nl" method="POST">
+                <input type="hidden" name="_subject" value="Nieuw bericht via Food and Joy website">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-semibold mb-2">Naam*</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-200 transition">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">E-mail*</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-200 transition">
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <label for="phone" class="block text-gray-700 font-semibold mb-2">Telefoonnummer (Optioneel)</label>
+                    <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-200 transition">
+                </div>
+
+                <div class="mb-6">
+                    <label for="service" class="block text-gray-700 font-semibold mb-2">Welke Dienst Interesse?*</label>
+                    <select id="service" name="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-200 transition">
+                        <option value="">Selecteer een service...</option>
+                        <option value="catering">Catering</option>
+                        <option value="freelance">Freelance Kok</option>
+                        <option value="homecooking">Homecooking</option>
+                        <option value="evenementen">Evenementen</option>
+                        <option value="other">Iets Anders</option>
+                    </select>
+                </div>
+
+                <div class="mb-8">
+                    <label for="message" class="block text-gray-700 font-semibold mb-2">Uw Bericht*</label>
+                    <textarea id="message" name="message" rows="6" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-200 transition resize-none"></textarea>
+                </div>
+
+                <div id="form-success-message" class="hidden mb-8 rounded-3xl border border-emerald-200 bg-emerald-50 px-6 py-4 text-emerald-900 shadow-sm">
+                    Bedankt, uw bericht is verstuurd. U krijgt zo snel mogelijk een reactie.
+                </div>
+                <div id="form-error-message" class="hidden mb-8 rounded-3xl border border-red-200 bg-red-50 px-6 py-4 text-red-900 shadow-sm">
+                    Er ging iets mis bij het versturen. Probeer het opnieuw of mail direct naar info@foodandjoy.nl.
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4">
+                    <button id="contact-form-submit" type="submit" class="px-8 py-3 bg-amber-600 text-white font-bold rounded-full shadow-lg hover:bg-amber-700 hover:shadow-xl transition duration-300 text-lg flex-1 cursor-pointer">
+                        Verstuur Bericht
+                    </button>
+                    <button type="reset" class="px-8 py-3 border-2 border-amber-600 text-amber-600 font-bold rounded-full hover:bg-amber-600 hover:text-white transition duration-300 text-lg flex-1 cursor-pointer">
+                        Wissen
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<div class="bg-amber-50">
+    <footer class="bg-[#1e3049] text-white pt-12 pb-6 border-t rounded-t-[80px]">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:justify-between gap-10">
+            <div class="mb-8 md:mb-0 flex-1">
+                <a href="index.html" class="text-3xl font-[Bree_Serif] font-bold tracking-wide">FOOD AND JOY</a>
+            </div>
+            <div class="flex flex-col sm:flex-row flex-1 gap-10 justify-end items-start">
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Navigatie</h4>
+                    <ul class="space-y-2">
+                        <li><a href="catering.html" class="hover:text-amber-400 transition">Catering</a></li>
+                        <li><a href="freelance.html" class="hover:text-amber-400 transition">Freelance</a></li>
+                        <li><a href="homecooking.html" class="hover:text-amber-400 transition">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="hover:text-amber-400 transition">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="hover:text-amber-400 transition">Over Jerry</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1 min-w-[180px]">
+                    <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Contact</h4>
+                    <ul class="space-y-2">
+                        <li><span class="font-semibold">Jerry van der Graaf</span></li>
+                        <li><a href="tel:06 18 93 88 56" class="hover:text-amber-400 transition">06 18 93 88 56</a></li>
+                        <li><a href="mailto:info@foodandjoy.nl" class="hover:text-amber-400 transition">info@foodandjoy.nl</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 pt-6 text-center text-sm opacity-50">
+            &copy; 2026 Food and Joy
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
