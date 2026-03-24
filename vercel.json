@@ -1,3 +1,37 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/catering.html",
+      "destination": "/pages/catering.html"
+    },
+    {
+      "source": "/freelance.html",
+      "destination": "/pages/freelance.html"
+    },
+    {
+      "source": "/homecooking.html",
+      "destination": "/pages/homecooking.html"
+    },
+    {
+      "source": "/evenementen.html",
+      "destination": "/pages/evenementen.html"
+    },
+    {
+      "source": "/over-jerry.html",
+      "destination": "/pages/over-jerry.html"
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/pages/contact.html"
+    }
+  ]
 }
