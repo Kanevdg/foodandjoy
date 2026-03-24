@@ -18,21 +18,20 @@ Main features:
 assets/
   icons/
   images/
-pages/
-  catering.html
-  contact.html
-  evenementen.html
-  freelance.html
-  homecooking.html
-  index.html
-  over-jerry.html
+catering.html
+contact.html
+evenementen.html
+freelance.html
+homecooking.html
+index.html
+over-jerry.html
 scripts/
   script.js
 styles/
   style.css
 robots.txt
 sitemap.xml
-tailwind.config.js
+vercel.json
 ```
 
 ## Running Locally
@@ -46,11 +45,11 @@ python3 -m http.server 8000
 ```
 
 Then open:
-- `http://localhost:8000/pages/index.html`
+- `http://localhost:8000/`
 
 ## Contact Form
 
-The contact form on [pages/contact.html](pages/contact.html) is configured to send submissions to `info@foodandjoy.nl` using FormSubmit.
+The contact form on [contact.html](contact.html) is configured to send submissions to `info@foodandjoy.nl` using FormSubmit.
 
 Important notes:
 - The first real submission may require FormSubmit email activation/verification
@@ -58,7 +57,7 @@ Important notes:
 - Success and error messages are shown inline on the contact page
 
 If you want to replace FormSubmit later, update:
-- [pages/contact.html](pages/contact.html)
+- [contact.html](contact.html)
 - [scripts/script.js](scripts/script.js)
 
 ## SEO Files
@@ -68,9 +67,17 @@ If you want to replace FormSubmit later, update:
 
 Current sitemap URLs assume the site is served from:
 - `https://foodandjoy.nl`
-- with pages available under `/pages/...`
+- with root-level public routes such as `/contact` and `/over-jerry`
 
 If the final hosting structure changes, update the URLs in [sitemap.xml](sitemap.xml) and the sitemap reference in [robots.txt](robots.txt).
+
+## Vercel
+
+This project is now structured for direct static deployment on Vercel.
+
+- [index.html](index.html) is the homepage at `/`
+- Other HTML files are served from the project root
+- [vercel.json](vercel.json) only enables clean URLs, so routes like `/contact` can work alongside the HTML files
 
 ## Deployment Notes
 

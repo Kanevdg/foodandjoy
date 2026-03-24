@@ -3,14 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food and Joy</title>
-    <meta http-equiv="refresh" content="0; url=/pages/index.html">
-    <link rel="canonical" href="https://foodandjoy.nl/pages/index.html">
-    <script>
-        window.location.replace('/pages/index.html');
-    </script>
+    <meta name="description" content="Food and Joy van chef-kok Jerry van der Graaf biedt culinaire catering, freelance chef-diensten en maatwerk voor feesten, evenementen en thuisdiners.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Home | Food and Joy</title>
 </head>
 <body>
-    <p>U wordt doorgestuurd naar de homepage van Food and Joy. <a href="/pages/index.html">Klik hier als dat niet automatisch gebeurt</a>.</p>
+<main>
+    <section class="relative h-[600px] bg-cover bg-center bg-no-repeat rounded-b-[80px]" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/background.jpg');">
+        <header id="header" class="absolute top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+            <nav class="navbar flex items-center justify-between p-6 text-white">
+                <div class="flex justify-between items-center w-full">
+                    <a href="index.html" class="logo text-4xl font-[Bree_Serif] font-semibold">FOOD AND JOY</a>
+                    <button id="hamburger-menu" class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul id="nav-menu" class="nav-links flex space-x-8">
+                        <li class="mobile-home-link"><a href="index.html">FOOD AND JOY</a></li>
+                        <li><a href="catering.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Catering</a></li>
+                        <li><a href="freelance.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Freelance</a></li>
+                        <li><a href="homecooking.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Homecooking</a></li>
+                        <li><a href="evenementen.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Evenementen</a></li>
+                        <li><a href="over-jerry.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Over Jerry</a></li>
+                        <li><a href="contact.html" class="relative pb-2 hover:text-amber-500 transition duration-300 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4 font-[Bree_Serif]">Freelance Kok Jerry Van Der Graaf</h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-6 max-w-2xl">Welkom bij Food and Joy</p>
+            
+            <div class="flex flex-col md:flex-row gap-3">
+                <a href="contact.html" class="cursor-pointer bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 lg:pt-[15px] rounded-lg font-semibold transition transform hover:scale-105">
+                    Neem contact op
+                </a>
+                <a href="over-jerry.html" class="cursor-pointer border-2 border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded-lg text-lg font-semibold transition">
+                    Over Jerry
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="max-w-5xl mx-auto px-4 animate-pop-in">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center font-[Bree_Serif]">Welkom Bij Food And Joy!</h2>
+            
+            <div class="space-y-6 text-gray-700 text-center mt-3">
+                <p class="text-md leading-relaxed">
+                    Food and Joy levert culinair maatwerk. Hierbij laten we de ervaring en inspiratie van Chef-kok Jerry van der Graaf graag samenvloeien aan al u wensen. Food and Joy biedt uiteenlopende concepten, waardoor er voor een ieder wat wils is, en ruime mogelijkheden voor elk budget. Door een jarenlange ervaring komt Food and Joy met een vakkundige oplossing voor al u wensen.
+                </p>
+                
+                <p class="text-md leading-relaxed">
+                    Met passie en precisie zorgt ons team ervoor dat elk evenement, groot of klein, tot in de puntjes verzorgd is. Van informele bijeenkomsten tot exclusieve feesten, Food and Joy biedt niet alleen heerlijke gerechten, maar ook een service die uw verwachtingen overtreft. Ons brede aanbod, dat varieert van verfijnde walking dinners tot thematische buffetten, wordt altijd afgestemd op de specifieke wensen van u en uw gasten.
+                </p>
+                
+                <p class="text-md leading-relaxed">
+                    Chef-kok Jerry van der Graaf staat bekend om zijn creativiteit en vakmanschap. Hij combineert klassieke kooktechnieken met moderne invloeden, waardoor hij steeds verrassende en verfijnde menu's weet te presenteren. Of u nu kiest voor een uitgebreid buffet, een intieme lunch of een BBQ, elk gerecht wordt met dezelfde aandacht en zorg bereid. Wij geloven dat goede catering niet alleen draait om smaak, maar ook om beleving, daarom zetten we in op unieke culinaire ervaringen.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 font-[Bree_Serif]">Over Food and Joy</h2>
+
+            <!-- Catering -->
+            <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12">
+                <div class="flex flex-col md:flex-row items-center gap-12 animate-pop-in">
+                    <div class="md:w-1/2">
+                        <h3 class="text-4xl font-bold mb-6 font-[Bree_Serif]">Catering</h3>
+                        <h4 class="text-xl font-semibold mb-6">Op zoek naar een unieke cateringvaring?</h4>
+                        <div class="space-y-4 text-base leading-relaxed">
+                            <p>
+                                Bij Food and Joy creëren we samen met u een uniek culinair concept voor elke gelegenheid. Van buffetten tot luxe hapjes, wij zorgen voor een smaakvolle ervaring.
+                            </p>
+                            <p>
+                                Of het nu gaat om een zakelijke bijeenkomst of een feestelijke gelegenheid, wij luisteren naar uw wensen en maken deze waar.
+                            </p>
+                        </div>
+                        <a href="catering.html" class="inline-block mt-8 px-6 py-3 border-2 border-amber-600 text-amber-600 font-semibold rounded-full hover:bg-amber-600 hover:text-white transition duration-300">
+                            Bekijk meer
+                        </a>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="assets/images/catering.jpg" alt="Catering" class="rounded-lg shadow-lg w-full object-cover h-80 zoom-on-hover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Freelance -->
+            <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12">
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12 animate-pop-in">
+                    <div class="md:w-1/2">
+                        <h3 class="text-4xl font-bold mb-6 font-[Bree_Serif]">Freelance</h3>
+                        <h4 class="text-xl font-semibold mb-6">Freelancer nodig?</h4>
+                        <div class="space-y-4 text-base leading-relaxed">
+                            <p>
+                                Op zoek naar flexibele ondersteuning in uw restaurant of cateringbedrijf? Food and Joy biedt de mogelijkheid om ervaren freelance koks in te huren voor tijdelijke klussen.
+                            </p>
+                            <p>
+                                Ontdek de voordelen van het werken met onze professionals en hoe wij u kunnen helpen tijdens drukke momenten.
+                            </p>
+                        </div>
+                        <a href="freelance.html" class="inline-block mt-8 px-6 py-3 border-2 border-amber-600 text-amber-600 font-semibold rounded-full hover:bg-amber-600 hover:text-white transition duration-300">
+                            Bekijk meer
+                        </a>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="assets/images/freelance.jpg" alt="Freelance Kok" class="rounded-lg shadow-lg w-full object-cover h-80 zoom-on-hover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Homecooking -->
+            <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12">
+                <div class="flex flex-col md:flex-row items-center gap-12 animate-pop-in">
+                    <div class="md:w-1/2">
+                        <h3 class="text-4xl font-bold mb-6 font-[Bree_Serif]">Homecooking</h3>
+                        <h4 class="text-xl font-semibold mb-6">Thuis Koken met Stijl</h4>
+                        <div class="space-y-4 text-base leading-relaxed">
+                            <p>
+                                Geniet van een zorgeloze culinaire ervaring bij u thuis. Van een intieme lunch tot een feestelijk diner, wij helpen u met al uw wensen en ideeën.
+                            </p>
+                            <p>
+                                Onze chefs creëren een menu dat perfect past bij uw gelegenheid, zodat u zich kunt richten op uw gasten. Laat ons het koken, serveren en zelfs het opruimen voor u verzorgen, zodat u volop kunt genieten van een onvergetelijke dag!
+                            </p>
+                        </div>
+                        <a href="homecooking.html" class="inline-block mt-8 px-6 py-3 border-2 border-amber-600 text-amber-600 font-semibold rounded-full hover:bg-amber-600 hover:text-white transition duration-300">
+                            Bekijk meer
+                        </a>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="assets/images/homecooking.jpg" alt="Homecooking" class="rounded-lg shadow-lg w-full object-cover h-80 zoom-on-hover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evenementen -->
+            <div class="bg-white rounded-3xl shadow-lg p-8 md:p-12">
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12 animate-pop-in">
+                    <div class="md:w-1/2">
+                        <h3 class="text-4xl font-bold mb-6 font-[Bree_Serif]">Evenementen</h3>
+                        <h4 class="text-xl font-semibold mb-6">Wilt u een culinair evenement?</h4>
+                        <div class="space-y-4 text-base leading-relaxed">
+                            <p>
+                                Heeft u een evenement waarvoor u een unieke culinaire invulling zoekt? Bij Food and Joy bieden we diverse mogelijkheden waarbij live cooking centraal staat.
+                            </p>
+                            <p>
+                                Of het nu gaat om een barbecue, een pizzaoven of een lemonadebar, wij zorgen voor een onvergetelijke ervaring voor u en uw gasten. Klik hier om te ontdekken hoe wij uw evenement kunnen verrijken!
+                            </p>
+                        </div>
+                        <a href="evenementen.html" class="inline-block mt-8 px-6 py-3 border-2 border-amber-600 text-amber-600 font-semibold rounded-full hover:bg-amber-600 hover:text-white transition duration-300">
+                            Bekijk meer
+                        </a>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="assets/images/evenementen.jpg" alt="Evenementen" class="rounded-lg shadow-lg w-full object-cover h-80 zoom-on-hover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-amber-50">
+        <div class="max-w-3xl mx-auto px-6 text-center rounded-3xl shadow-lg bg-white py-12 animate-pop-in">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 font-[Bree_Serif] text-amber-900">Freelance kok inhuren?</h2>
+            <p class="text-lg mb-2">Bent u op zoek naar een vakkundige en flexibele freelance kok?</p>
+            <p class="text-lg mb-2">Ontdek de diensten van Jerry van der Graaf van Food and Joy.</p>
+            <p class="text-lg mb-6">Jerry is breed inzetbaar, en staat klaar om uw keuken te versterken. Vraag direct een offerte aan, of neem contact op via <span class="font-semibold">06 18 93 88 56</span> voor meer informatie!</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4 mt-6">
+                <a href="contact.html" class="px-8 py-3 bg-amber-600 text-white font-semibold rounded-full shadow hover:bg-amber-700 transition text-lg">Vraag Offerte aan</a>
+                <a href="tel:06 18 93 88 56" class="px-8 py-3 border-2 border-amber-600 text-amber-600 font-semibold rounded-full hover:bg-amber-600 hover:text-white transition text-lg">Bel 06 18 93 88 56</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+</main>
+<div class="bg-amber-50">
+  <footer class="bg-[#1e3049] text-white pt-12 pb-6 border-t rounded-t-[80px]">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:justify-between gap-10">
+          <div class="mb-8 md:mb-0 flex-1">
+              <a href="index.html" class="text-3xl font-[Bree_Serif] font-bold tracking-wide">FOOD AND JOY</a>
+          </div>
+          <div class="flex flex-col sm:flex-row flex-1 gap-10 justify-end items-start">
+              <div class="flex-1 min-w-[180px]">
+                  <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Navigatie</h4>
+                  <ul class="space-y-2">
+                      <li><a href="catering.html" class="hover:text-amber-400 transition">Catering</a></li>
+                      <li><a href="freelance.html" class="hover:text-amber-400 transition">Freelance</a></li>
+                      <li><a href="homecooking.html" class="hover:text-amber-400 transition">Homecooking</a></li>
+                      <li><a href="evenementen.html" class="hover:text-amber-400 transition">Evenementen</a></li>
+                      <li><a href="over-jerry.html" class="hover:text-amber-400 transition">Over Jerry</a></li>
+                      <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="flex-1 min-w-[180px]">
+                  <h4 class="font-semibold mb-3 text-lg border-b border-amber-400 pb-1 w-fit">Contact</h4>
+                  <ul class="space-y-2">
+                      <li><span class="font-semibold">Jerry van der Graaf</span></li>
+                      <li><a href="tel:06 18 93 88 56" class="hover:text-amber-400 transition">06 18 93 88 56</a></li>
+                      <li><a href="mailto:info@foodandjoy.nl" class="hover:text-amber-400 transition">info@foodandjoy.nl</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="mt-10 pt-6 text-center text-sm opacity-50">
+          &copy; 2026 Food and Joy
+      </div>
+  </footer>
+</div>
 </body>
 </html>
